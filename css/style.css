@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #333;
+}
+
+/*** Header: ***/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 2;
+}
+h1 {
+  font-size: 2.2em;
+  font-family: 'Rammetto One', sans-serif;
+  font-weight: 900;
+  display: inline-block;
+  padding: 0 0.5em;
+}
+nav {
+  position: relative;
+  width: 100%;
+}
+ul.menu {
+  position: absolute;
+  right: 0;
+  top: 0.5em;
+}
+/* LVHFA-order: a:link — a:visited — a:hover — a:focus — a:active */
+.nav-links {
+  font-size: 1.4em;
+  font-family: 'Rammetto One', sans-serif;
+  font-weight: 900;
+  display: inline-block;
+  padding: 0 1em;
+}
+nav a:link, nav a:visited, nav a:active {
+  color: #333;
+  text-decoration: none;
+}
+/* header hero */
+.header-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+/*** sections ***/
+section {
+  position: relative;
+  height: 100vh;
+  padding: 5em;
+}
+h2 {
+    font-size: 2em;
+    font-family: 'Rammetto One', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
+    font-weight: 900;
+}
+#portfolio {
+  background-color: #dfdfdf;
+  background-image: url(../img/header-repeate.png);
+  background-repeat: repeat-y;
+  background-position: top;
+  background-size: contain;
+}
+.portfolio{
+  position: absolute;
+  bottom: 3em;
+  left: 0;
+  width: 100%;
+  min-height: 405px; 
+  z-index: 1;
+}
+.portfolio h2 {
+  text-align: center;
+}
+.hex-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+#about{
+  background-color: #fae6d2;
+  background-image: url(../img/about-me.jpg);
+  background-repeat: none;
+  background-position: right;
+  background-size: cover;
+  padding: 7em 8em;
+}
+.about{
+  position: relative;
+  width: 50%;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.about .main-text {
+  padding: 1em 0 3em;
+}
+.about .main-text p {
+  padding: 0.5em 0;
+}
+.about .small-text {
+  font-size: 0.85em;
+}
+.about a:link, .about a:visited, .about a:active{
+  color: #333;
+}
+#contact {
+  background: #dfdfdf;
+  background-image: url(../img/footer-repeat.png);
+  background-repeat: repeat-y;
+  background-position: top;
+  background-size: contain;
+}
+.contact {
+  position: relative;
+  padding: 1em;
+  text-align: center;
+  z-index: 1;
+}
+.contact h2 {
+  padding: 0.5em;
+}
+.contact p {
+  padding: 0.5em 0;
+}
+.social-links{
+  padding: 0.5em;
+}
+.social-links img {
+  padding: 1em;
+}
+.logos{
+  padding: 0.5em;
+}
+.logos img {
+  padding: 0.5em 3em;
+}
+/*** footer hero ***/
+.footer-hero {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%
+}
+/*** Footer: ***/
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.5em;
+  color: #333;
+  font-size: 1em;
+  font-family: 'Rammetto One', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
